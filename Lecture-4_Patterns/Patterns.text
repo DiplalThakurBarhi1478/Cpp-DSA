@@ -1,0 +1,82 @@
+# Mostly using for loop
+# Not for interview context
+
+
+Types of question
+
+1. Square pattern
+    a. 1 2 3 4
+       1 2 3 4
+       1 2 3 4
+       1 2 3 4
+
+    b. * * * *
+       * * * *
+       * * * *
+       * * * *
+
+    c. A B C D --> type conversion A = 65
+       A B C D
+       A B C D
+       A B C D
+
+    d. 1 2 3
+       4 5 6
+       7 8 9
+
+    e. A B C
+       D E F
+       G H I
+
+2. Triangle Pattern
+    a. *
+       * * 
+       * * *
+    b. 1
+       2 2
+       3 3 3
+       4 4 4
+    c. A
+       B B
+       C C C
+       D D D D
+
+    d. 1
+       1 2 
+       1 2 3
+       1 2 3 4
+
+    e. 1
+       2 3
+       4 5 6
+       7 8 9 10
+
+    f. A
+       B C
+       D E F
+       G H I J
+
+    g. A
+       B A
+       C B A
+       D C B A
+    
+    h. 1111
+        222
+         33
+          4
+    
+    i. AAAA
+        BBB
+         CC
+          D
+
+3. Pyramid Pattern
+   
+    
+
+
+    
+
+
+
