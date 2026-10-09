@@ -1,0 +1,190 @@
+DSA teaches you to be the problem solver in the computer software world 
+
+Data Structure
+------------------
+------------------
+
+
+1. Primitive    
+
+
+2. Non-Primitive
+    a. Linear
+        -> Static -->Arrays
+        -> Dynamic 
+           --> Vector
+           --> LinkedList
+           --> Stack
+           --> Queue
+
+
+    b. Non-linear
+        -> Tree
+        -> Graph
+        -> Table/Set
+
+
+Algorithms
+
+ a. Dynamic Programming
+ b. Greedy Algorithms
+ c. Two Point Approach
+
+--------------------------------------------
+
+
+
+## I believe I have completed about the 
+    1. Flowchart, Pseudo code, Installation
+    2. Variable, Data Types
+    3. Condition statements
+    4. Patternss 
+    5. Functions
+    6. Binary Number System
+    7. Bitwise Operators
+    8. Arrays
+    9. Vectors
+    10. Kadene's Algorithms
+    11. Moore's Algorithms
+    12. Time and Space Complexity
+    13. Buy and Sell Stock
+    14. Container with Most Water
+    15. Product of an Array Except self
+    16. Pointers
+    17. Binary Search Algorithms
+    18. Search in a Rotated Sorted Array
+    19. Mountain Array Problem
+    20. Single Element in Sorted Array
+    21. Book Allocation
+    22. Painter's Partion Problem
+    23. Aggressive Cows' Problem
+    24. Sorting Algorithms
+    25. Sort an Array of 0s, 1s, 2s
+    26. Merge Sorted Arrays
+    27. C++ STL 
+    28. How to set up c++ compiler
+    29. String and Character Arrays
+    30. Valid Palindrome and Remove all Occurence
+    31. Strings (Permutation in String)
+    32. Strings ( Reverse words in a string) 
+    33. Strings Compression
+    34. Math for DSA
+    35. 2D Arrays in C++
+    36. Search a 2D Matrix
+    37. Spiral Matrix
+    38. Find Duplicate, find missing and repearting values
+    39. 3 Sum, Brute, Better, Best Approach
+    40. 4 Sum problems
+    41. Subarray Sum Equal K
+    42. Recursion
+    43. Fibonacci Numbers, Binary Search,  Find if Array Sorted (Recursion)
+    44. What is Backtracking, Subsets Problems, Subsets 
+    45. Permutation (Recursion)
+    46. N Queens Problems
+    47. Sudoko Solver
+    48. Rat in A Maze
+    49. Combination Sum
+    50. Palindrome, Partitioning
+    51. Merge Sort (Algorithms)
+    52. Quick Sort Algorithms
+    53. Count INversion
+    54. Knights Tours
+    55. Completes OOPS
+    56. Introduction to linked List
+    57. Rverse a Linked List
+    58. Middle of Linked List
+    59. Detect and Remove Cycles
+    60. Merge 2 sorted Lists
+    61. Copy List with Random Pointer
+    62. Doubly linked list
+    63. Circular Linked List
+    64. Flatten Doubly Linked List
+    65. Reverse Nodes in K-Group
+    66. Swap Nodes in Pairs
+    67. Introduction to Stacks
+    68. Valid Parentheses
+    69. Stock Span Problem
+    70. Next Greater Element
+    71. Previous Smaller Elements
+    72. Design Min Stack
+    73. Largest Rectangle in Histograms
+    74. Next Greater Elements 2
+    75. Trapping Rain Water
+    76. Celebrity Problems
+    77. LRU cache
+    78. Queue Data Structure
+    79. Circular Queue
+    80. Implement (1. Queue using Stack, 2. Stack using Queue)
+    81. First Unique Character in A string
+    82. Slinding Window Maximum
+    83. Gas Station (Gas Station)
+    84. Binary Trees in Data Structure
+    85. Height of Binary Tree and Count of Binary Tree
+    86. Identical Tree Problem Subtree of another Tree
+    87. Diameter of Binary Tree
+    88. Top view of a Tree
+    89. Kth Level of a Tree
+    90. Lowest Common Ancestor in Binary Tree
+    91. Build Tree from Preorder and Inorder
+    92. Transform to Sum Tree
+    93. Binary Tree Paths
+    94. Maximum Width of Binary Tree
+    95. Morris Inorder Traversal
+    96. Flatten Tree to Linked List
+    97. Binary Search Trees
+    98. Sorted Array it Balanced BST
+    99. Validate Binary Search Tree
+    100. Min Distance Between BST
+    101. Kth Smallest in BST
+    102. Lowest Common Ancestor in BST
+    103. Constructor BST from Preorder
+    104. Merge Two Binary Search Tree
+    105. Recover BST
+    106. Largest BST
+    107. Populate Next right pointer in Each Node
+    108. Binary Search Tree | Iterator
+    109. Inorder BST | Predecessor or Successor
+    110. Introduction to Graphs
+    111. B.F.S Traversal
+    112. D.F.S Traversal
+    113. Detect Cycle Undirected Graph
+    114. Detect cycle Undirected Graph
+    115. Number of Islands
+    116. Rotatting Oranges
+    117. Detect a Cycle in Directed Graph
+    118. Topological Sorting
+    119. Course Schedule Problem
+    120. Course Schedule Problem 2
+    121. Flood Fill Algorithms
+    122. Topological Sorting'
+    123. Dijikstra's Algorithms
+    124. Bellmand Ford Algorithms
+    125. Prism's Algorithms
+    126. Disjoint Set Union
+    127. Kruskal's Algorithms
+    128. Number of Provinces
+    129. Connect all points
+    130. Cheapesh Flights with K stops
+    131. Bridge in Graph Tarjan's Algorithms
+    132. Articulation Point in Graph Tarjan's Algorithms
+    133. Strongly Connnected Components (Kosaraju's Algorithms)
+    134. FLOYD Warshall Algorithm
+    135. Dynamic Programming
+    136. Climbing Stairs
+    137. House Robbers
+    138. House Robbers 
+    139. From Jump Problem
+    140. Min COST climbing stairs
+    141. Fractional Knapsack
+    142. 0/1 knapsack
+
+    
+
+
+
+
+
+
+
+
+
