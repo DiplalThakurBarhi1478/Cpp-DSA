@@ -1,5 +1,6 @@
 # Mostly using for loop
 # Not for interview context
+# Nested loop is very useful for DSA.
 
 
 Types of question
@@ -72,7 +73,17 @@ Types of question
           D
 
 3. Pyramid Pattern
-   
+   a.    1
+        121
+       12321
+
+   B.    A
+        ABA
+       ABCBA
+
+
+4. Hollow Diamond Pattern
+   a. 
     
 
 
