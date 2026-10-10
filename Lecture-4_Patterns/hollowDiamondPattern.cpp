@@ -7,44 +7,46 @@ int main(){
     int n = 4;
     // Nested loops are very useful for DSA
     
-
-    for(int i{0}; i < n; ++i){  
-        for(int j{0}; j < n - i - 1 ; j++){  // spaces
-            cout << " ";
-        }     
-        cout << "*";                         // a star
-        
-        for(int j{0}; j < i ; j++){          // spaces
-            cout << " ";
-        }
-
-        for(int j{0}; j < i ; j++){          // spaces
+    for(int i{0} ; i < n ; i++){
+        for(int j{0}; j < n - i - 1; j++){     // spaces
             cout << " ";
         }
         cout << "*";
-                            
-    cout << endl;
-    }
-
-        for(int i{0}; i < n - 1 ; ++i){ 
-
-            for(int j{0} ; j <= i; j++){        // spaces
-                cout << " ";
-            }     
-            cout << "*";                         // a star
-
-            
-            for(int j{n - i - 2}; j > 0 ; j--){          // spaces
-                cout << " ";
-            }
-
-            for(int j{n - i - 2}; j > 0 ; j--){          // spaces
-                cout << " ";
-            }
-            cout << "*";
+        
+        if(i != 0) {
+            for(int j{0}; j < 2 * i - 1; j++){
+            cout << " ";
+        }
+        cout << "*";
+        }
+        
                             
     cout << endl;
     }
 
 
+for(int i{0} ; i < n - 1 ; i++){
+        for(int j{0}; j < i + 1 ; j++){
+            cout << " ";
+        }
+        cout << "*";
+        
+        if(i != n - 2){
+            for(int j{3 - 2 * i}; j > 0 ; j--){
+            cout << " ";
+            }
+        cout << "*";
+        }
+        
+    cout << endl;
+    }
 }
+/* 
+   *
+  * *
+ *   *
+*     *
+ *   *
+  * *
+   * 
+*/
