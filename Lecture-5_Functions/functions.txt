@@ -1,0 +1,34 @@
+#Function Syntax:
+    returnType printHello(){
+        cout << "hello";
+    }
+
+
+#Function syntax(with the parameters):
+    returnType printHello(int var1, int var2){
+        cout << a + b << endl;
+    }
+
+Note: those values which do not change is called literals.
+
+//We use functions to avoid reduancy that mean repeating code.
+
+
+#Function in Memory
+    Two types
+    1. stack - static allocation
+    2. heap - dynamic allocation
+
+
+#pass by value
+    What happens here in memory, 
+
+    When we pass already declared values through a user defined function then it does not pass the already store memory instead it 
+    creates the copy of the memory. We used the copied memory.
+
+Note: vector, stack, are passed using pass by *reference*.
+
+
+
+    
+
