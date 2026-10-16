@@ -1,0 +1,40 @@
+Bitwise Operator
+
+    1. Bitwise & (OR operator)
+        if both are 1 then output is 1, otherwise it is 0;
+
+    2. Bitwise | (AND operator)
+        if anyone is 1, then it is 1, otherwise it is 0;
+
+    3. Bitwise ^ (XOR operator)
+        if both are same, then it is 0, otherwise it is 1.
+
+    4. Bitwise << (left shift)
+        10 << 2 means in the binary number of the 10, every binary digits shift left two positions. 
+
+        Actually this operator do a small operation (a << b), a * pow(2, b)
+
+    5. Bitwise >> (right shift)
+        10 >> 2 means shifting two binary digits to right. But keep in mind that there is no space for shifted binary at the right end since it was the last digit.
+
+        Actually this operator do a small operation (a >> b),  a/pow(2, b)
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+Operator Precedence
+Answer: This tells the compiler to do the solving as per the priority order of the operators.
+
+Scope of Variables
+    1. Local
+    2. Global
+
+Data Type Modifier
+Answer: Changing the meaning of the data types.
+    1. Unsigned
+    2. Signed
+    3. Short
+    4. Long
+    5. long long
+
+
+// Note: Learned very important computer architecture that is about what is range of the data type, 
+// and how the negative and positive values are stored inside the memory.
