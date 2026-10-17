@@ -1,10 +1,11 @@
-Conversion of Decimal to Binary
 
-Conversion of Binary to Decimal
+Conversion of Decimal to Binary (divide by 2)
 
-Two's Complement
+Conversion of Binary to Decimal (multiply by 2)
 
-1's Complement
+Two's Complement (this is form in which negative numbers are stored.)
 
-Most Significant Bits
+1's Complement (it is interchanging 1 t0 0 and 0 to 1)
+
+Most Significant Bits (very important for negative numbers, signed)
 
