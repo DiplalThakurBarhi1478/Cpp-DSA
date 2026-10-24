@@ -38,24 +38,36 @@ Smallest/Largest in Array
 
         Note: min(a, b);
 
-
 ----------------------------------------------------------------------------------------------------------------------------------
 Index of smallest and largest
-
+    First finding the smallest or largest number
+    second looping to find which number is the smallest or the largest then printing the position.
 
 
 ----------------------------------------------------------------------------------------------------------------------------------
-
 Pass by Reference
+    array -> non primitive : pass by reference 
+
+    Note: if we change value anywhere inside user defined function or inside main function and that change is in the real memory then
+    it is pass by reference.
+
+    implicitly the name of array is a pointer.
 
 ----------------------------------------------------------------------------------------------------------------------------------
-
-Linear Search
+Linear Search -> it is a fixed algorithm
+    
+    linear search is the simplest algorithm which allows to search any target sequentially one by one and returning the result if found in the array.
+    
+    using if condition inside the for loop and printing the output if the target is found.
 
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Reverse an Array (2 Pointer) 
+    it means reversing the elemens of the array.
 
+    using two pointer approach
+
+    usign start and end to reverse the elements.
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Summary & Homework
