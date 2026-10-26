@@ -1,0 +1,47 @@
+1. Introduction
+    Dynamic array
+
+2. Vector syntax
+    need vector header
+    then code
+
+    vector<int> vectorName; // just initialization
+    vector<int> vectorName = {1, 2, 3}; // initialization and vector Name
+    vector<int> vectorName(3, 5); // 3 is size and each element in it is 5
+
+
+3. Vector functions
+    -->size()
+    -->push_back()
+    -->pop_back()
+    -->front()
+    -->back()
+    -->at()
+
+
+
+4. Static and dynamic allocation
+    static memory allocation occur at compile time
+    dynamic memory allocation occur at run time 
+
+    for example: 
+    array follows static memory allocation 
+    vector follows dynamic memory allocation
+
+    static memory allocation happens in stack
+    dynamic memory allocation happens in heap
+
+    Note: in heap during dynamic memory allocation, if the memory is occupied then for every push_back() double the size of the array is created.
+    we can understand the difference between size and capacity. 
+
+        what do i mean by that? 
+        so let say initially we created a vec and push_back 1, then there is one memory
+        again i do it, there is no space so double memory will create and the value will be inserted
+        now if i push_back again new value inside the vec, since there is no space double size will be created mean 4 memory
+        now size is 3 but space is 4, so if i repeat it, then it will insert the value since there is space but no change is capacity.
+
+    vec.size()
+    vec.capacity()
+
+    
+
