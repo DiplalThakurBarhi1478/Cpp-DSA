@@ -1,0 +1,13 @@
+Solved the maximum subarray sum 
+    0. printing the unique number by adding all like {4, 1, -1, 2, -2} // Ans : 4
+
+    1. Brute force Method
+        a. using three loops
+        b. using two loops
+    
+    2. Kadane's Algorithm
+        first, initiation
+        understand concept
+        order for conditions for edge cases
+        
+
