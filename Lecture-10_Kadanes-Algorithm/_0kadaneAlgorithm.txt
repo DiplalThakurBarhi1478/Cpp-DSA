@@ -9,5 +9,9 @@ Solved the maximum subarray sum
         first, initiation
         understand concept
         order for conditions for edge cases
+
+        It is like not starting with negative sum or number.
+
+        
         
 

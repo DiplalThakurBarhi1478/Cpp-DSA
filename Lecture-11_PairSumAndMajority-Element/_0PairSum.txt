@@ -1,0 +1,17 @@
+//Pair Sum
+    Returning a pair of index whose values' sum is equivalent to the target value
+
+    1. Brute Force Approach
+        --> using double loop one inside another to find each pair
+        --> O(n2)
+        --> then checking condition if the pair sum is equal to target.
+
+    2. Two pointer approach
+        --> using single loop
+        --> O(n)
+        --> in this, we have three conditions 
+            -> first if equal that find you directly print the start and ending indices
+            -> second if pair sum is less than target sum then we increase the start index 
+            -> third if pair sum is more than target then we increase the end index.
+
+        
