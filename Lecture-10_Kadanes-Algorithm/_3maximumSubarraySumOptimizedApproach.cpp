@@ -11,7 +11,6 @@ using namespace std;
 int main(){
     vector<int> nums = {-1, 2, -3, 4, 5, 6};
 
-    // optimizing the first code using brute force again
     // one loop is removed
 
     int size = nums.size();

@@ -2,8 +2,14 @@ Majority Element
     1. Using Brute Force Approach
         --> counting each element in the array
         --> finding the maximum number element
+        --> O(n2)
     
     2. Optimized code
-        
+        --> sorting the array
+        --> if previous number is same then increase freqency otherwise, jump to initial frequency and ans = nums[i]
+        --> O(nlogn)
 
     3. More optimized code using Moore's Voting Algorithm
+        --> without sorting the array and using freq++ and freq--
+        --> if upcomming number is same then increase frequency otherwise decrease frequency.
+        --> O(n)
