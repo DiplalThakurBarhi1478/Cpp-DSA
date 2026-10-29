@@ -1,0 +1,9 @@
+Majority Element 
+    1. Using Brute Force Approach
+        --> counting each element in the array
+        --> finding the maximum number element
+    
+    2. Optimized code
+        
+
+    3. More optimized code using Moore's Voting Algorithm
