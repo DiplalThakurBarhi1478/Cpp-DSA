@@ -1,0 +1,117 @@
+Common Time Complexity
+
+1. O(1)
+2. O(logn)
+3. O(n)
+4. O(nlogn)
+5. O(x^2)
+6. O(x^3)
+7. O(2^x)
+8. O(n!)
+
+
+O(1)
+----
+// it means whatsoever is the input size, the number of operation is constant
+// Like use formula and get answer
+
+int n;
+cin >> n;
+int ans = n * (n + 1) / 2;
+cout << ans;
+
+
+O(n)
+----
+// it means the number of operations increases with the increase of the input size
+
+### N factorial
+int n;
+cin >> n;
+int factorial = 1;
+for(int i{1}; i <= n; i++){
+    factorial *= i;
+}
+
+### N fibonacci - DP
+int n;
+cin >> n;
+int dp[n];
+
+for(int i{2}; i <=n; i++){
+    dp[i] = dp[i-1] + dp[i - 2];
+}
+
+### Kadane's Algorithm
+int currSum = 0;
+int maxSum = INT_MIN;
+for(int i{0}; i < n; i++){
+    currSum += arr[i];
+    maxSum = max(maxSum, currSum);
+
+    if(currSum < 0){
+        currSum = 0;
+    }
+}
+
+
+O(n^2)
+------
+
+// where we run loop inside loop.
+
+### Bubble sorting
+### Patterns printing
+
+
+O(n^3)
+------
+
+// where we run loop inside loop inside loop
+
+### Possible sub array print
+
+
+O(logn)
+-------
+
+// whereever we see if the initial value get going half then it is O(logn) time complexity
+
+    --> for example: 
+    if the size of array was 8, then after operator it will be 4, then again it will be 2, finally it will be 1.
+
+
+### binary search algorithm
+### binary search tree algorithm
+
+
+O(nlogn)
+--------
+
+// this is better than O(n^2)
+
+### sorting
+### merge sorting
+### Quick sort
+### Greedy algorithm
+
+
+O(2^x)
+------
+
+// worst time complexity
+
+### Recursion (Brute Force Approach)
+
+
+O(n!)
+------
+
+// not so common
+
+### N queens
+### Knight Tours
+### string - all possible permutation using recursion
+
+
+

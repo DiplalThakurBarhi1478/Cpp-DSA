@@ -1,0 +1,39 @@
+Time Complexity
+---------------
+
+Time complexity
+    --> Behavior of code
+    --> it explains how does the execcution time grows when size of input increases.
+
+Big O Notation explains the time complexity function
+    --> useful for worst case 
+    --> also known as upper bound
+
+    To find the time complexity of the big O function
+        -> ignore constants
+        -> find the largest term
+    
+    O --> big O for upper bound
+    Theta --> avg
+    Omega --> lower bound
+
+    Extras:
+    --> Master's Theorem (Cormen)
+
+
+Space Complexity
+----------------
+
+Space Complexity
+    --> it explains how the memory grows when the input size increases
+
+    Memory mainly stores 
+    1. input(string, array, vector) 
+        -> let's say it stores an array and want to find the square of each element of the array then
+    2. auxuliary parts
+        -> it stores auxualiary portions like output either same number of space (O(n)) or one single output (O(1)).
+
+
+
+
+
