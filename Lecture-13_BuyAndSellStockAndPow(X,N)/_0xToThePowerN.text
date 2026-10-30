@@ -1,0 +1,16 @@
+// Computer x^n
+    --> Binary Exponentiation
+
+    Concept is:
+        1. we play with the power instead of multiple the based as the power times we use the binary form of the power.
+         --> this is called binary exponentiation
+
+    What is happening?
+    -> we store ans = 1, power = n ,x = base ;
+    -> we cheack if power is negative if it is then we make it positive.
+    -> then we proceed t0 find the power of the base using the binary exponentiation
+    -> it tells us to play with bit by bit
+    -> so if the bit == 1 then we change the answer by multiplying it with the base;
+    -> what ever the bit is 0 or 1, we multiple x by itself and store inside the x, because every bit proceed left x is x, x square,
+        x cube, x fourth, x fifth, 
+

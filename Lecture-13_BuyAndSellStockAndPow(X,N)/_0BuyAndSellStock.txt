@@ -1,0 +1,9 @@
+Buy and selling stock concept
+
+    initial initialization are buyingPrice is vec[0], and maxProfit = 0;
+
+    first we assume every element starting from first index is sellingPrice
+
+    then we loop into the vector to find if selling price is greater than the buying price if it is then finding max profit.
+
+    at the same time we also find the minimum buying price.
