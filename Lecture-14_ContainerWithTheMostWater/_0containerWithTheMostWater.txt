@@ -1,0 +1,18 @@
+// Brute force Approach
+
+    --> loop for individual check
+    --> loop for checking individual element with other all element
+    --> finding width j - i
+    --> findgn the min height 
+    --> using those width and height to find the area.
+
+
+// Optimized Approach - Two pointer approach
+
+    --> using two pointers start = 0 and end = size - 1;
+    --> while start < end run the while loop
+    --> same way width is end - start
+    --> find min height
+    --> find max area using them 
+    --> now here it becoem critical to increase or decrease the start or end
+    --> if height is smalled at start then start++ otherwise end--;
