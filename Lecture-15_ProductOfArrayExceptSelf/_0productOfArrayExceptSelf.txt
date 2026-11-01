@@ -1,0 +1,17 @@
+# Brute Force Approach
+    Process:
+    -> First thing come in mind is that  double loop into the vector and 
+    -> take product of those elements knowing the condition if != the element at that element.
+
+
+#Optimal Approach
+    Process:
+    -> First find the product of prefix and store inside the prefix vector
+    -> Second find the product of suffix and store inside the suffix vector
+    -> At last, store the product of the prefix and suffix at the ith position and store into the answer vector
+
+
+#Optimized Space Complexity
+    Process:
+    -> After understanding well, actually we do not need to create extra vector like prefix and suffix
+    -> Instead first store the prefix into the answer vector and again run loop to calculate the suffix product and multiply to the ith prefix product of answer.
