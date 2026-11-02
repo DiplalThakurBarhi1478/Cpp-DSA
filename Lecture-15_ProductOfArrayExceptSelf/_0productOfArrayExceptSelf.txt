@@ -1,6 +1,6 @@
 # Brute Force Approach
     Process:
-    -> First thing come in mind is that  double loop into the vector and 
+    -> First thing come in mind is that run double loop into the vector one inside other and 
     -> take product of those elements knowing the condition if != the element at that element.
 
 
