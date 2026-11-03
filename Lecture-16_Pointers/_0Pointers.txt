@@ -1,0 +1,61 @@
+Pointers
+    1. memory Address
+        Every pointer stores memory address.
+
+    2. Pointers
+        int* ptr = &a;
+        int* => this imply pointer
+
+    3. Pointer to Pointer
+        int** ptr2 = &ptr;
+        int** => this imply pointer pointing pointer
+
+    4. Dereferencing Pointer
+        int value = *(&a);
+        int value = *(ptr);
+
+    5. Null Pointer
+        int* ptr = NULL;
+        ptr => this imply nothing
+
+    6. pass by reference
+        a. pointers
+            inside secondary function
+            void change(int *a){ // address is stored inside pointer
+                int val = *(a);
+            }
+            inside int main(){
+                change(&a); // passing address
+            }
+
+        b. references
+            inside secondary function
+            void change(int &b){ // using another name for the same address
+                int val = b;
+            }
+            inside int main(){
+                change(a); // passing value
+            }
+
+    7. array pointer
+        int arr[] = {1, 2, 3, 4, 5};
+        // note 'arr' is a pointer so it is storing the address of first element
+        // if you want to store use another pointer then we do this
+            int* ptr = arr;
+
+    8. pointer arithmetic
+        a. pointer increment and decrement
+            int* ptr = arr;
+            ptr++;
+            ptr--;
+
+        b. pointer adding and subtracting
+            int* ptr1;
+            int* ptr2;
+            
+            note: pointers cannot be added
+            We can subtract out pointers
+
+        c. comparing pointer
+            Yes we can compare our pointer
+            ==, !=, <=, >=, <, > 
