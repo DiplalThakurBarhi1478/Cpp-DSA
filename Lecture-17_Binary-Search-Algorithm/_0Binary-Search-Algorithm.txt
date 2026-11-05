@@ -1,0 +1,21 @@
+Binary Search Algorithm
+    Steps:
+    > firt initialize start = 0 and end = last position
+    > then find the mid position 
+    > after that we will compare the value at mid position with the target value, and we will have three condition either less, greater, or equal
+    > if target < mid value, end = mid - 1;
+    > if target > mid value, start = mid + 1;
+    > if target == mid value, return mid value;
+
+Optimization of Binary Search Algorithm
+    > mid = start + (end - start)/2;
+
+
+Time Complexity of Binary Search Algorithm
+    > O(logn)
+    > every time search happens in half of the array
+    > n/2^k = 1 
+    > log(n) = k
+
+Binary Search with Recursive Approach
+    

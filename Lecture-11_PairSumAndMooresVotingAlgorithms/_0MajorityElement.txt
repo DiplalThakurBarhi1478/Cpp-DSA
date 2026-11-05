@@ -1,4 +1,4 @@
-Majority Element 
+Majority Element ==> moore's voting algorithms
     1. Using Brute Force Approach
         --> counting each element in the array
         --> finding the maximum number element
