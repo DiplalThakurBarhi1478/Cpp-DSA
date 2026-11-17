@@ -1,0 +1,4 @@
+// Common theory for rotated array is
+    -> either left part or right part is sorted in the array.
+    -> find it first
+    -> then use binary search in the the sorted part
