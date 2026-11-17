@@ -1,5 +1,6 @@
 Binary Search Algorithm
-    Steps:
+    
+    #Iterative Approach
     > firt initialize start = 0 and end = last position
     > then find the mid position 
     > after that we will compare the value at mid position with the target value, and we will have three condition either less, greater, or equal
@@ -18,4 +19,7 @@ Time Complexity of Binary Search Algorithm
     > log(n) = k
 
 Binary Search with Recursive Approach
-    
+    > return the same function call in the first place to repeat the process, like passing the array, target, changed start and 
+    changed end
+    > O(logn) -> time complexity
+
