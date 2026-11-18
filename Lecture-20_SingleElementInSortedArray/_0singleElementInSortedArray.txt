@@ -1,0 +1,5 @@
+Steps:
+    1. First we find the mid value
+    2. Second we check if the if the mid value is the answer by comparing with left value and right value
+    3. Third we minimize the search space
+    4. Logic is if left part has odd number of element and mid value is equal to mid - 1 value then answer lies in the right part.
