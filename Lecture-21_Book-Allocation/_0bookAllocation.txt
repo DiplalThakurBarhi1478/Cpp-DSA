@@ -1,0 +1,12 @@
+Book Allocation
+    1. first we find possible answers, that is range
+
+    2. then we apply binary search to find the answer from it, 
+    
+    3. if valid result comes it mean the max book allocation answer lies in the left
+
+    4. We find maximum pages of each distribution and minimum out of it.
+
+
+
+DRY RUN: {15, 17, 20}, n = 3 , m = 2
