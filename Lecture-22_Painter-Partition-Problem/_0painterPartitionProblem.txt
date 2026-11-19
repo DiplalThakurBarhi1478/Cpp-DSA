@@ -1,0 +1,13 @@
+first we find the range of the answer
+
+We apply binary search to it.
+
+step 1: in the bs, we find mid value
+
+step 2: the we check if mid value is possible answer
+
+step 3: after know if the answer possiblitity we will have two condition either go left or right
+
+step 4: if possible, then we have to look more smallere answer in the left so end = mid - 1;
+
+step 5: if not possible, then we have to look more bigger answer in the right so st = mid + 1;
