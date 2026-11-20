@@ -1,0 +1,7 @@
+Steps:
+    step 1: first we run the loop to n - 1 times
+    step 2: inside it we run again another loop n - i - 1 times;
+    step 3: inside this loop we compare the j and j + 1 element if j is greater then only we swap them.
+    step 4: after completing the loop we return the vector.
+
+    Time complexity : O(n2)

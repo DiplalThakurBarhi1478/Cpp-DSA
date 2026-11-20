@@ -1,0 +1,7 @@
+Steps:
+    step 1: we divide sorted and unsorted part in the array.
+    step 2: we run loop to n - 1 times
+    step 3: we assume the first element is the smallest element in the array.
+    step 4: then we run loop to n times form j = i,
+    step 5: then we compare the first elemetn with the remaining element such that we can get the smallest element.
+    step 6: after getting the smallest indext we swap it with the first element.
