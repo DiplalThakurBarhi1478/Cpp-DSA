@@ -8,7 +8,6 @@ using namespace std;
 //Space Complexity: O(1)
 
 void nextPermutation(vector<int>& nums, int n){
-    
     int idx = nums.size() - 2;
     int pivot = -1;
 
@@ -20,7 +19,6 @@ void nextPermutation(vector<int>& nums, int n){
         }
     } 
    
-
      // third handling if the case is maximum
     if(pivot == -1){
         reverse(nums.begin(), nums.end());
@@ -31,10 +29,8 @@ void nextPermutation(vector<int>& nums, int n){
             if(nums[i] > nums[pivot]){
                 swap(nums[i], nums[pivot]);
                 break;
-
             }
         }
-
         reverse(nums.begin() + pivot + 1, nums.end());
     }
   
@@ -42,14 +38,11 @@ void nextPermutation(vector<int>& nums, int n){
     for(int i = 0; i < nums.size(); i++){
         cout << nums[i] << " ";
     }
-
 }
 
 int main(){
     vector<int> nums = {1, 2, 3, 4};
     int n = 4;
-
     nextPermutation(nums, n);
-
     return 0;
 }

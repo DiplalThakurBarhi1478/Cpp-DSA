@@ -1,0 +1,50 @@
+Definition of Strings
+    if anything enclosed inside the dobule quote (" ") then it is string
+
+character array
+    char str[] = {'h', 'e', 'l', 'l', 'o'}; // not valid string
+    char str[] = {'h', 'e', 'l', 'l', 'o', '\0'}; // valid string
+
+    char str[] = "hello"; // string literals
+
+Character array I/O
+    char str[100];
+    cin >> str;
+    cout << str; // but it will not store the phrase or words after space
+
+    char str[100];
+    cin.getline(str, 100);
+    cout << str; // this will print the whole sentence
+
+    // delimiter
+    char str[100];
+    cin.getline(str, 100, '$');
+    cout << str; // it will only print the character before the '$' character and remaining will not.
+
+
+    - in this character array, to compare it is difficult
+    - because we need to loop and compare individual characters
+
+string objects
+Note: string is a class
+    string str = "hello";
+
+    #include<string> //header
+
+String array I/O
+
+    string str;
+    cin >> str;
+    cout << str; // it will not print after space
+    
+    string str;
+    getline(cin, str);
+    cout << str; // it will print all those characters including space inside the sentences.
+
+    // to print we can use for each loop
+    for(char ch : str){
+        cout << ch << " ";
+    }
+
+    - in this string array, to compare is simple
+    - we just need to equal them using == sign
